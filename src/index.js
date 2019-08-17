@@ -1,8 +1,8 @@
-import HelloWorld from 'components/HelloWorld';
-import 'main.css';
+import drawType from "components/drawType";
+import "main.css";
 
 const main = async () => {
-    HelloWorld();
-}
+  drawType();
+};
 
-main().then(() => console.log('Started'));
+main().then(() => console.log("Started"));
